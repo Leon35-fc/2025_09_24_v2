@@ -1,33 +1,52 @@
- header div{
-    width: 50%;
-    margin-left: auto;
-    margin-right: auto;
-    }
+ #logo{
+        width: 362px;
+        margin-left: auto;
+        margin-right: auto;
+      }
 
-header p{
-    background-color: beige;
-    text-align: center;
-    border-top: 1px;
-    border-top-color: brown;
-    }
-
-main, 
-footer{        
-        width: 70%;
+ main, 
+ footer{    
+        width: 50%;
         margin-left: auto;
         margin-right: auto;
         }
 
+header p{
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        background-color: beige;
+        text-align: center;
+        border-top: 1px solid brown;
+        }
+
+header{
+        padding-bottom: 1rem;
+      }
+
 video{
-    border-radius: 10px;
-    box-shadow:inset;
-}
+        align-self: ;
+        width: 100%;
+        border-radius: 1em;
+        box-shadow: 4px 4px 8px lightgray; 
+        
+    }
+
+main div>p{
+            text-align: center;
+            color: darkgray;
+          }
+
 
 h2{
     color: brown;
 }
 
 #featured{
-    border-top: 1px;
-    border-top-color: brown;
+    padding-left: 1rem;
+    border-left: 2px solid brown;
+    
 }
+
+#featured h3{
+            color: orangered;
+            }
